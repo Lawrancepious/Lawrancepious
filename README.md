@@ -23,7 +23,7 @@ from dataclasses import dataclass, field
 class LawrancePious:
     role: str = "AI Engineer @ MAVDERO"
     location: str = "Chennai, India"
-    experience: str = "2+ years · 3 production AI/ML products shipped"
+    experience: str = "2+ years · 3+ production AI products shipped"
     focus: tuple = ("Generative AI", "Agentic AI", "Intelligent Document Processing")
     stack: dict = field(default_factory=lambda: {
         "genai":   ["LangChain", "LangGraph", "Google Gemini", "Prompt Engineering", "OCR"],
