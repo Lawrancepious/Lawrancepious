@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
 <defs>
-  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#B3121F"/><stop offset="1" stop-color="#FF6B78"/></linearGradient>
+  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
   <style>
-    .bgc { fill: #170E11; stroke: #3A2328; }
-    .big { font: 800 40px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #FF6B78; }
-    .lab { font: 600 19px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #F6ECEE; }
-    .sub { font: 400 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #B8A5A9; }
+    .bgc { fill: #0F172A; stroke: #1E293B; }
+    .big { font: 800 40px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #22D3EE; }
+    .lab { font: 600 19px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #E2E8F0; }
+    .sub { font: 400 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #94A3B8; }
     .card { animation: rise ease-out; }
     .fill { transform-box: fill-box; transform-origin: left; animation: grow ease-out; }
     @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
@@ -14,38 +14,38 @@
 </defs>
 <g class="card" style="animation-duration:1.0s">
   <rect x="10" y="10" width="282" height="170" rx="18" class="bgc"/>
-  <rect x="10" y="10" width="5" height="170" rx="2" fill="#E63946"/>
+  <rect x="10" y="10" width="5" height="170" rx="2" fill="url(#bar)"/>
   <text x="36" y="70" class="big">500+</text>
   <text x="36" y="102" class="lab">contracts / day</text>
   <text x="36" y="126" class="sub">processed by agentic AI</text>
-  <rect x="36" y="148" width="230" height="8" rx="4" fill="#3A2328"/>
+  <rect x="36" y="148" width="230" height="8" rx="4" fill="#1E293B"/>
   <rect x="36" y="148" width="230" height="8" rx="4" fill="url(#bar)" class="fill"
         style="animation-duration:1.60s"/>
 </g><g class="card" style="animation-duration:1.3s">
   <rect x="307" y="10" width="282" height="170" rx="18" class="bgc"/>
-  <rect x="307" y="10" width="5" height="170" rx="2" fill="#E63946"/>
+  <rect x="307" y="10" width="5" height="170" rx="2" fill="url(#bar)"/>
   <text x="333" y="70" class="big">92%+</text>
   <text x="333" y="102" class="lab">extraction accuracy</text>
   <text x="333" y="126" class="sub">across 3+ routed LLMs</text>
-  <rect x="333" y="148" width="230" height="8" rx="4" fill="#3A2328"/>
+  <rect x="333" y="148" width="230" height="8" rx="4" fill="#1E293B"/>
   <rect x="333" y="148" width="212" height="8" rx="4" fill="url(#bar)" class="fill"
         style="animation-duration:1.95s"/>
 </g><g class="card" style="animation-duration:1.6s">
   <rect x="604" y="10" width="282" height="170" rx="18" class="bgc"/>
-  <rect x="604" y="10" width="5" height="170" rx="2" fill="#E63946"/>
+  <rect x="604" y="10" width="5" height="170" rx="2" fill="url(#bar)"/>
   <text x="630" y="70" class="big">&lt;300 ms</text>
   <text x="630" y="102" class="lab">API latency</text>
   <text x="630" y="126" class="sub">async FastAPI services</text>
-  <rect x="630" y="148" width="230" height="8" rx="4" fill="#3A2328"/>
+  <rect x="630" y="148" width="230" height="8" rx="4" fill="#1E293B"/>
   <rect x="630" y="148" width="184" height="8" rx="4" fill="url(#bar)" class="fill"
         style="animation-duration:2.30s"/>
 </g><g class="card" style="animation-duration:1.9s">
   <rect x="901" y="10" width="282" height="170" rx="18" class="bgc"/>
-  <rect x="901" y="10" width="5" height="170" rx="2" fill="#E63946"/>
+  <rect x="901" y="10" width="5" height="170" rx="2" fill="url(#bar)"/>
   <text x="927" y="70" class="big">99%+</text>
   <text x="927" y="102" class="lab">job completion</text>
   <text x="927" y="126" class="sub">with retries + circuit breakers</text>
-  <rect x="927" y="148" width="230" height="8" rx="4" fill="#3A2328"/>
+  <rect x="927" y="148" width="230" height="8" rx="4" fill="#1E293B"/>
   <rect x="927" y="148" width="228" height="8" rx="4" fill="url(#bar)" class="fill"
         style="animation-duration:2.65s"/>
 </g>

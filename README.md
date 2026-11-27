@@ -4,9 +4,9 @@
 
 <img src="assets/typing.svg" alt="AI Engineer building production GenAI · Agentic AI with LangChain & LangGraph · Async FastAPI on Azure & AWS">
 
-<a href="https://www.linkedin.com/in/lawrance-pious/"><img src="https://img.shields.io/badge/LinkedIn-lawrance--pious-E63946?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:lawrance0604@gmail.com"><img src="https://img.shields.io/badge/Email-lawrance0604%40gmail.com-E63946?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<img src="https://komarev.com/ghpvc/?username=Lawrancepious&color=E63946&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views">
+<a href="https://www.linkedin.com/in/lawrance-pious/"><img src="https://img.shields.io/badge/LinkedIn-lawrance--pious-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:lawrance0604@gmail.com"><img src="https://img.shields.io/badge/Email-lawrance0604%40gmail.com-4F46E5?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://komarev.com/ghpvc/?username=Lawrancepious&color=4F46E5&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views">
 
 </div>
 
@@ -34,18 +34,18 @@
 
 <br><br>
 
-![LangChain](https://img.shields.io/badge/LangChain-E63946?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-E63946?style=flat-square&logo=langgraph&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs-E63946?style=flat-square&logo=openai&logoColor=white)
-![Agentic AI](https://img.shields.io/badge/Agentic_AI-E63946?style=flat-square&logo=robotframework&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E63946?style=flat-square&logo=pydantic&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-E63946?style=flat-square&logo=celery&logoColor=white)
-![OCR](https://img.shields.io/badge/OCR_%2B_IDP-E63946?style=flat-square&logo=googledocs&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-E63946?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-E63946?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-E63946?style=flat-square&logo=numpy&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-E63946?style=flat-square&logo=streamlit&logoColor=white)
-![Cosmos DB](https://img.shields.io/badge/Azure_Cosmos_DB-E63946?style=flat-square&logo=microsoftazure&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-7C3AED?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=flat-square&logo=langgraph&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-7C3AED?style=flat-square&logo=openai&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-7C3AED?style=flat-square&logo=robotframework&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-7C3AED?style=flat-square&logo=pydantic&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-7C3AED?style=flat-square&logo=celery&logoColor=white)
+![OCR](https://img.shields.io/badge/OCR_%2B_IDP-7C3AED?style=flat-square&logo=googledocs&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-7C3AED?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-7C3AED?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-7C3AED?style=flat-square&logo=numpy&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-7C3AED?style=flat-square&logo=streamlit&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Azure_Cosmos_DB-7C3AED?style=flat-square&logo=microsoftazure&logoColor=white)
 
 </div>
 
@@ -103,10 +103,10 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Lawrancepious&show_icons=true&hide_border=true&bg_color=0d1117&title_color=E63946&icon_color=FF6B78&text_color=c9d1d9&ring_color=E63946&count_private=true" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lawrancepious&layout=compact&hide_border=true&bg_color=0d1117&title_color=E63946&text_color=c9d1d9&langs_count=6" alt="Top languages">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Lawrancepious&show_icons=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=22D3EE&text_color=c9d1d9&ring_color=6366F1&count_private=true" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lawrancepious&layout=compact&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&langs_count=6" alt="Top languages">
 
-<img src="https://streak-stats.demolab.com?user=Lawrancepious&hide_border=true&background=0d1117&ring=E63946&fire=FF6B78&currStreakLabel=E63946&sideLabels=E63946&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&stroke=3A2328" alt="GitHub streak">
+<img src="https://streak-stats.demolab.com?user=Lawrancepious&hide_border=true&background=0d1117&ring=6366F1&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=A78BFA&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&stroke=1E293B" alt="GitHub streak">
 
 <br>
 

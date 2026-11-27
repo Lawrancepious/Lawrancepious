@@ -1,4 +1,4 @@
-# Draws the animated "snake eats my contributions" graph in red and publishes it
+# Draws the animated "snake eats my contributions" graph in indigo/neon and publishes it
 # to the `output` branch, which the README links to. Runs daily, on push, or manually.
 name: Generate contribution snake
 
@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?color_snake=#E63946&color_dots=#ebedf0,#ffccd1,#ff8f9a,#e63946,#9d0208
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF6B78&color_dots=#161b22,#4a0e15,#8b1523,#cc2034,#e63946
+            dist/github-snake.svg?color_snake=#4F46E5&color_dots=#ebedf0,#c7d2fe,#a5b4fc,#818cf8,#6d28d9
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161b22,#1e1b4b,#3730a3,#6366f1,#a78bfa
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

@@ -1,26 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="2400" y2="0" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#3D050B"/><stop offset=".25" stop-color="#A50F1C"/>
-    <stop offset=".5" stop-color="#E63946"/><stop offset=".75" stop-color="#A50F1C"/>
-    <stop offset="1" stop-color="#3D050B"/>
+    <stop offset="0" stop-color="#0B1026"/><stop offset=".25" stop-color="#1E3A8A"/>
+    <stop offset=".5" stop-color="#6D28D9"/><stop offset=".75" stop-color="#1E3A8A"/>
+    <stop offset="1" stop-color="#0B1026"/>
     <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-1200 0;0 0" dur="14s" repeatCount="indefinite"/>
   </linearGradient>
   <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>
     <stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <clipPath id="card"><rect width="1200" height="340" rx="28"/></clipPath>
   <style>
-    .hi    { font: 600 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #FFD9DD; animation: rise 1s ease-out; }
+    .hi    { font: 600 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #67E8F9; animation: rise 1s ease-out; }
     .name  { font: 800 62px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #fff; animation: rise 1.2s ease-out; }
-    .role  { font: 400 24px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #FFE3E6; animation: rise 1.5s ease-out; }
+    .role  { font: 400 24px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #C7D2FE; animation: rise 1.5s ease-out; }
     .chip  { animation: rise 1.8s ease-out; }
-    .chip rect { fill: #fff; fill-opacity: .16; }
+    .chip rect { fill: #0B1026; fill-opacity: .35; stroke: #22D3EE; stroke-opacity: .6; }
     .chip text { font: 600 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #fff; }
     .wave  { display: inline-block; transform-box: fill-box; transform-origin: 70% 80%; animation: wave 2.4s ease-in-out infinite; }
-    .edge  { stroke: #fff; stroke-opacity: .35; stroke-width: 1.4; stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
-    .node  { fill: #fff; transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    .edge  { stroke: #22D3EE; stroke-opacity: .45; stroke-width: 1.4; stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
+    .node  { fill: #67E8F9; filter: url(#glow); transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
     .sweep { animation: sweep 6s ease-in-out infinite; }
-    .dot   { fill: #fff; animation: floaty 7s ease-in-out infinite; }
+    .dot   { fill: #A5F3FC; animation: floaty 7s ease-in-out infinite; }
     @keyframes rise   { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
     @keyframes wave   { 0%,60%,100% { transform: rotate(0) } 10%,30% { transform: rotate(16deg) } 20%,40% { transform: rotate(-8deg) } }
     @keyframes flow   { to { stroke-dashoffset: -32 } }
