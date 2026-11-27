@@ -15,28 +15,14 @@
 
 ## 🧠 About me
 
-```python
-from dataclasses import dataclass, field
+I'm an **AI Engineer** with **2+ years** of experience building production **Generative AI** and **Agentic AI** systems. I've shipped **3+ production AI products** in contract automation and fintech.
 
-
-@dataclass
-class LawrancePious:
-    role: str = "AI Engineer @ MAVDERO"
-    location: str = "Chennai, India"
-    experience: str = "2+ years · 3+ production AI products shipped"
-    focus: tuple = ("Generative AI", "Agentic AI", "Intelligent Document Processing")
-    stack: dict = field(default_factory=lambda: {
-        "genai":   ["LangChain", "LangGraph", "Google Gemini", "Prompt Engineering", "OCR"],
-        "backend": ["Python", "FastAPI", "Flask", "Pydantic", "Celery", "Async I/O"],
-        "ml":      ["scikit-learn", "XGBoost", "NLP"],
-        "data":    ["MongoDB", "PostgreSQL", "Azure Cosmos DB", "Redis", "Pandas"],
-        "cloud":   ["Azure Functions", "AWS EC2", "Docker", "GitHub Actions"],
-    })
-    education: str = "B.Sc. Statistics, Loyola College, Chennai"
-
-    def currently(self) -> str:
-        return "Building agentic pipelines that turn 500+ contracts a day into structured data"
-```
+- 🤖 **Now:** AI Engineer at **MAVDERO**, building agentic pipelines that turn **500+ contracts a day** into structured data.
+- 🧩 **Focus:** LLM systems, agentic workflows (LangChain, LangGraph), and intelligent document processing (OCR + LLMs).
+- ⚡ **Backend:** Python, FastAPI, async microservices, Pydantic, Celery, Redis.
+- ☁️ **Cloud:** Azure Functions, Cosmos DB, AWS EC2, Docker and GitHub Actions CI/CD.
+- 🎓 **Education:** B.Sc. Statistics, Loyola College, Chennai.
+- 📍 **Location:** Chennai, India. Open to conversations about GenAI and production ML.
 
 ## ⚙️ What I build
 
