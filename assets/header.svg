@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="2400" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#3D050B"/><stop offset=".25" stop-color="#A50F1C"/>
+    <stop offset=".5" stop-color="#E63946"/><stop offset=".75" stop-color="#A50F1C"/>
+    <stop offset="1" stop-color="#3D050B"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-1200 0;0 0" dur="14s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="card"><rect width="1200" height="340" rx="28"/></clipPath>
+  <style>
+    .hi    { font: 600 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #FFD9DD; animation: rise 1s ease-out; }
+    .name  { font: 800 62px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #fff; animation: rise 1.2s ease-out; }
+    .role  { font: 400 24px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #FFE3E6; animation: rise 1.5s ease-out; }
+    .chip  { animation: rise 1.8s ease-out; }
+    .chip rect { fill: #fff; fill-opacity: .16; }
+    .chip text { font: 600 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #fff; }
+    .wave  { display: inline-block; transform-box: fill-box; transform-origin: 70% 80%; animation: wave 2.4s ease-in-out infinite; }
+    .edge  { stroke: #fff; stroke-opacity: .35; stroke-width: 1.4; stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
+    .node  { fill: #fff; transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    .dot   { fill: #fff; animation: floaty 7s ease-in-out infinite; }
+    @keyframes rise   { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+    @keyframes wave   { 0%,60%,100% { transform: rotate(0) } 10%,30% { transform: rotate(16deg) } 20%,40% { transform: rotate(-8deg) } }
+    @keyframes flow   { to { stroke-dashoffset: -32 } }
+    @keyframes pulse  { 0%,100% { transform: scale(.75); opacity: .7 } 50% { transform: scale(1.15); opacity: 1 } }
+    @keyframes sweep  { 0% { transform: translateX(-500px) } 60%,100% { transform: translateX(1600px) } }
+    @keyframes floaty { 0%,100% { transform: translateY(0); opacity: .15 } 50% { transform: translateY(-24px); opacity: .45 } }
+  </style>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <circle class="dot" cx="80" cy="300" r="5"/><circle class="dot" cx="560" cy="40" r="4" style="animation-delay:-2s"/>
+  <circle class="dot" cx="700" cy="310" r="6" style="animation-delay:-4s"/><circle class="dot" cx="30" cy="40" r="4" style="animation-delay:-5s"/>
+  <circle class="dot" cx="1170" cy="310" r="5" style="animation-delay:-3s"/>
+  <g transform="translate(800 30)"><line x1="0" y1="40" x2="110" y2="20" class="edge" style="animation-delay:-0.00s"/><line x1="0" y1="40" x2="110" y2="80" class="edge" style="animation-delay:-0.37s"/><line x1="0" y1="40" x2="110" y2="140" class="edge" style="animation-delay:-0.74s"/><line x1="0" y1="40" x2="110" y2="200" class="edge" style="animation-delay:-1.11s"/><line x1="0" y1="40" x2="110" y2="260" class="edge" style="animation-delay:-1.48s"/><line x1="0" y1="105" x2="110" y2="20" class="edge" style="animation-delay:-1.85s"/><line x1="0" y1="105" x2="110" y2="80" class="edge" style="animation-delay:-2.22s"/><line x1="0" y1="105" x2="110" y2="140" class="edge" style="animation-delay:-2.59s"/><line x1="0" y1="105" x2="110" y2="200" class="edge" style="animation-delay:-2.96s"/><line x1="0" y1="105" x2="110" y2="260" class="edge" style="animation-delay:-0.33s"/><line x1="0" y1="170" x2="110" y2="20" class="edge" style="animation-delay:-0.70s"/><line x1="0" y1="170" x2="110" y2="80" class="edge" style="animation-delay:-1.07s"/><line x1="0" y1="170" x2="110" y2="140" class="edge" style="animation-delay:-1.44s"/><line x1="0" y1="170" x2="110" y2="200" class="edge" style="animation-delay:-1.81s"/><line x1="0" y1="170" x2="110" y2="260" class="edge" style="animation-delay:-2.18s"/><line x1="0" y1="235" x2="110" y2="20" class="edge" style="animation-delay:-2.55s"/><line x1="0" y1="235" x2="110" y2="80" class="edge" style="animation-delay:-2.92s"/><line x1="0" y1="235" x2="110" y2="140" class="edge" style="animation-delay:-0.29s"/><line x1="0" y1="235" x2="110" y2="200" class="edge" style="animation-delay:-0.66s"/><line x1="0" y1="235" x2="110" y2="260" class="edge" style="animation-delay:-1.03s"/><line x1="110" y1="20" x2="220" y2="75" class="edge" style="animation-delay:-1.40s"/><line x1="110" y1="20" x2="220" y2="140" class="edge" style="animation-delay:-1.77s"/><line x1="110" y1="20" x2="220" y2="205" class="edge" style="animation-delay:-2.14s"/><line x1="110" y1="80" x2="220" y2="75" class="edge" style="animation-delay:-2.51s"/><line x1="110" y1="80" x2="220" y2="140" class="edge" style="animation-delay:-2.88s"/><line x1="110" y1="80" x2="220" y2="205" class="edge" style="animation-delay:-0.25s"/><line x1="110" y1="140" x2="220" y2="75" class="edge" style="animation-delay:-0.62s"/><line x1="110" y1="140" x2="220" y2="140" class="edge" style="animation-delay:-0.99s"/><line x1="110" y1="140" x2="220" y2="205" class="edge" style="animation-delay:-1.36s"/><line x1="110" y1="200" x2="220" y2="75" class="edge" style="animation-delay:-1.73s"/><line x1="110" y1="200" x2="220" y2="140" class="edge" style="animation-delay:-2.10s"/><line x1="110" y1="200" x2="220" y2="205" class="edge" style="animation-delay:-2.47s"/><line x1="110" y1="260" x2="220" y2="75" class="edge" style="animation-delay:-2.84s"/><line x1="110" y1="260" x2="220" y2="140" class="edge" style="animation-delay:-0.21s"/><line x1="110" y1="260" x2="220" y2="205" class="edge" style="animation-delay:-0.58s"/><line x1="220" y1="75" x2="320" y2="140" class="edge" style="animation-delay:-0.95s"/><line x1="220" y1="140" x2="320" y2="140" class="edge" style="animation-delay:-1.32s"/><line x1="220" y1="205" x2="320" y2="140" class="edge" style="animation-delay:-1.69s"/><circle cx="0" cy="40" r="9" class="node" style="animation-delay:-0.00s"/><circle cx="0" cy="105" r="9" class="node" style="animation-delay:-0.45s"/><circle cx="0" cy="170" r="9" class="node" style="animation-delay:-0.90s"/><circle cx="0" cy="235" r="9" class="node" style="animation-delay:-1.35s"/><circle cx="110" cy="20" r="9" class="node" style="animation-delay:-1.80s"/><circle cx="110" cy="80" r="9" class="node" style="animation-delay:-2.25s"/><circle cx="110" cy="140" r="9" class="node" style="animation-delay:-0.30s"/><circle cx="110" cy="200" r="9" class="node" style="animation-delay:-0.75s"/><circle cx="110" cy="260" r="9" class="node" style="animation-delay:-1.20s"/><circle cx="220" cy="75" r="9" class="node" style="animation-delay:-1.65s"/><circle cx="220" cy="140" r="9" class="node" style="animation-delay:-2.10s"/><circle cx="220" cy="205" r="9" class="node" style="animation-delay:-0.15s"/><circle cx="320" cy="140" r="9" class="node" style="animation-delay:-0.60s"/></g>
+  <text class="hi" x="72" y="82">Hi there, I'm <tspan class="wave">👋</tspan></text>
+  <text class="name" x="68" y="152">Lawrance Pious A</text>
+  <text class="role" x="72" y="196">AI Engineer · Generative &amp; Agentic AI · Chennai, India</text>
+  <g class="chip"><rect x="70" y="232" width="77" height="32" rx="16"/><text x="109" y="253" text-anchor="middle">Python</text></g><g class="chip"><rect x="157.2" y="232" width="105" height="32" rx="16"/><text x="210" y="253" text-anchor="middle">LangChain</text></g><g class="chip"><rect x="272.0" y="232" width="105" height="32" rx="16"/><text x="324" y="253" text-anchor="middle">LangGraph</text></g><g class="chip"><rect x="386.8" y="232" width="86" height="32" rx="16"/><text x="430" y="253" text-anchor="middle">FastAPI</text></g><g class="chip"><rect x="483.2" y="232" width="68" height="32" rx="16"/><text x="517" y="253" text-anchor="middle">Azure</text></g><g class="chip"><rect x="561.2" y="232" width="50" height="32" rx="16"/><text x="586" y="253" text-anchor="middle">AWS</text></g>
+  <g transform="skewX(-18)"><rect class="sweep" width="320" height="340" fill="url(#sweep)"/></g>
+</g>
+</svg>
